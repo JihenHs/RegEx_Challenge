@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RegEx CHALLENGE</title>
+  </head>
+  <body>
+    <h3>My RegEx Challenge</h3>
+
+    <div class="container">
+      <form name="form">
+        <label for="name"> Name</label>
+        <input type="text" id="name" name="name" placeholder="Your name.." />
+        <div><h6 id="wrongname"></h6></div>
+
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email" placeholder="Your Email" />
+        <div><h6 id="wrongemail"></h6></div>
+        <label for="phonenumber">Phone Number</label>
+        <input
+          type="text"
+          id="phoneNumber"
+          name="phoneNumber"
+          placeholder="Your Phone Number"
+        />
+        <div><h6 id="wrongphone"></h6></div>
+        <label for="pwd">Password</label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="Your Password"
+        />
+        <div><h6 id="wrongpwd"></h6></div>
+        <input type="button" value="Submit" id="btn"/>
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
